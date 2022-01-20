@@ -72,8 +72,8 @@ createApp({
         })//.then
         .catch((err) => {
           console.dir(err);
-          alert(err.data.message);
-          window.location = 'index.html';
+          // alert(err.data.message);// 會出錯，不知道為什麼？
+          window.location = 'index.html';// 失敗轉回登入畫面
         })//.catch
     },//.checkAdmin
     getData() {
@@ -84,7 +84,7 @@ createApp({
         })//.then
         .catch((err) => {
           console.dir(err);
-          alert(err.data.message);
+          //alert(err.data.message); // 會出錯，不知道為什麼？
         })//.catch
     },//.getData
     restoreProduct() {

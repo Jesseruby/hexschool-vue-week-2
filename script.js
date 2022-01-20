@@ -13,7 +13,7 @@ createApp({
     login(){
       const url = 'https://vue3-course-api.hexschool.io/v2'; // 請加入站點
       const path = 'jesse-hexschool'; // 請加入個人 API Path
-      const api = 'http://vue3-course-api.hexschool.io/v2/admin/signin';
+      const api = 'https://vue3-course-api.hexschool.io/v2/admin/signin';
       axios.post(api, this.user)
         .then((response)=>{
           const { token, expired } = response.data;// 驗證後把端傳來的token

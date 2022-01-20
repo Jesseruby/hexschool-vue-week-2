@@ -3,6 +3,8 @@ import { createApp } from 'https://cdnjs.cloudflare.com/ajax/libs/vue/3.0.9/vue.
 createApp({
   data() {
     return {
+      url: 'https://vue3-course-api.hexschool.io/v2', // 請加入站點
+      path: 'jesse-hexschool', // 請加入個人 API Path
       apiUrl: 'https://vue3-course-api.hexschool.io/v2',
       apiPath: 'hexschoolvue',
       //原始產品

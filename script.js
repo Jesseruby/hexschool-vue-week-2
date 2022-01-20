@@ -19,7 +19,7 @@ createApp({
           const { token, expired } = response.data;// 驗證後把端傳來的token
           // 寫入cookie token
           // expires 設置到期日 ( 用new Date()轉型成JS用 )
-          document.cookie = `hexToken=${token};expire=${new Date(expired)}; path=/`; // 把token存到Cookie
+          document.cookie = `hexToken=${token};expire=${new Date(expired)};`; // 把token存到Cookie
           window.location = 'products.html';// 轉址到後台的產品頁面
         }).catch((error)=>{
           console.dir(error);

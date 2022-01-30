@@ -1,6 +1,6 @@
 # hexschool-vue-week-2
 
-https://jesseruby.github.io/hexschool-vue-week-2/index.html
+第2周作業：https://jesseruby.github.io/hexschool-vue-week-2/index.html
 
 #### 2022/1/20 
 - API登入會出現404、400
